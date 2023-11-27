@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.swal2-small {
+   margin: 0;
+    width: 300px; /* Adjust the width as needed */
+    
+  }
+
+
+  /*table */
+
+   table.dataTable {
+    width: 100%;
+    margin: 0 auto;
+    clear: both;
+    border-collapse: separate;
+    border-spacing: 0;
+  }
+
+  #booksTable {
+    width: 100%;
+
+    border-collapse: collapse !important;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    border: 1px solid #ddd;
+    color: #333;
+  }
+
+  #booksTable th, #booksTable td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #ddd;
+  }
+
+  #booksTable th {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+  }
+
+  #booksTable tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+  #booksTable tbody tr:hover {
+    background-color: #ddd;
+  }
+
+  button {
+    cursor: pointer;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+  }
+
+  .btn-edit {
+    background-color: #2196F3;
+  }
+
+  .btn-delete {
+    background-color: #f44336;
+  } 
+
+  #booksTable_wrapper {
+    padding: 20px; /* Add some padding to the table wrapper */
+  }
+  
+  /* Style for the "Create" or "Update" button */
+  button.btn-create,
+  button.btn-update {
+    background-color: #4CAF50; /* Green */
+  }
+  
+  /* Style for the "Delete" button */
+  button.btn-delete {
+    background-color: #f44336; /* Red */
+  }
+  
+  /* Hover effect for all buttons */
+  button:hover {
+    opacity: 0.8;
+  }
+  
